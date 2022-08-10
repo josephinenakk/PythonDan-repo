@@ -43,3 +43,23 @@ the indentation in Python is very important. Python uses indentation to indicate
 
  
 # 8. Create individual  branch
+
+python_batch_details = [
+    ["x","y",10,["z","a","b"],["masters"]],
+    ["x","y",10,["z","a","b"],["masters"]],
+    ["x","y",10,["z","a","b"],["masters"]],
+
+]
+
+fourth_person_details = ["x","y",8,["rick","john","yes"],["masters"]]
+
+
+
+# pybde = [[],[],[],3,False]
+
+python_batch_details.append(fourth_person_details)
+python_batch_details.append(4)
+python_batch_details.append(True)
+
+python_batch_details.insert(0,"Instructor")
+print(python_batch_details)
