@@ -63,3 +63,16 @@ python_batch_details.append(True)
 
 python_batch_details.insert(0,"Instructor")
 print(python_batch_details)
+
+continent_and_countries = [["Austria","German","Slovene","Croatian","English"],
+["Belize","English" , "Spanish", "Mayan", "Garifuna (Carib)", "Creole"],
+["Georgia","Georgian", "Russian", "Armenian", "Azerbaijani", "Abkhaz"],
+["India","Hindi", "English", "Bengali", "Gujarati","Marathi"," Oriya"," Tamil","Telugu"],
+["Israel","Hebrew"," Arabic", "English", "Russian"],
+["Italy","Italian" ,"German" , "French" ,"Slovene"],
+["Mongolia","Mongolian","Turkic", "Russian", "Chinese"] ]
+#7.pop()
+a=continent_and_countries.pop(0)
+print ("pop method example",a ,'\n')
+#print("\n")
+print(continent_and_countries)
