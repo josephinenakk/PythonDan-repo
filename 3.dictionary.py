@@ -26,11 +26,11 @@ dictinary_var = {
                  }
 print(dictinary_var,"\n")
 
-#1.	copy()
+#1.copy()
 x=dictinary_var.copy()
 print("1.Using copy method to print dictinary_var",x,'\n')
 
-#2.	fromkeys() for each first list item  it will take it as key and  assign all list items of second as value .
+#2.fromkeys() for each first list item  it will take it as key and  assign all list items of second as value .
 x=('first_name', 'age', 'height', 'weight')
 y=('joe')
 OneWayFoCreateDictonary = dict.fromkeys(x, y)
@@ -42,34 +42,34 @@ print("2.Using formkey creating Dictonary=",OneWayFoCreateDictonary)
 'height': 'joe',
 'weight':'joe'}"""
 
-#3.	get()	
+#3.get()	
 y=dictinary_var.get("marital_status")
 print("3.Using get method finding the value of marital_status: ",y,'\n')
 
-#4.	items()
+#4.items()
 z = dictinary_var.items()
 print("4.Using items method: ",z,'\n')
 
-#5.	keys()	
+#5.keys()	
 k = dictinary_var.keys()
 print("5.Using keys method to get keys of dictinary:",k,'\n')
 
-#6. pop()
+#6.pop()
 x=dictinary_var.pop("pets")
 print(x)
 print("6.Using pop method removing pets: ",dictinary_var,'\n')
 
-#7.	popitem()
+#7.popitem()
 dictinary_var.popitem()
 print("7.Using pop method removing pets: ",dictinary_var,'\n')
 
-#8.	setdefault() , it doesn't change the value of key but if key does't exit it appends the key value.
+#8.setdefault() , it doesn't change the value of key but if key does't exit it appends the key value.
 x=dictinary_var.setdefault("first_name","Ammulu")
 print("8.1 From setdefault method with old key= ",x,'\n') 
 x=dictinary_var.setdefault("nick_name","Ammulu")
 print("8.2 From setdefault method with new key= ",x,'\n')
 
-#9.	update()
+#9.update()
 dictinary_var.update({"color":"Green"})
 print("9 From update method= ", dictinary_var,'\n')
 
