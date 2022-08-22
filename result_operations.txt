@@ -1,0 +1,122 @@
+
+ A. Operators ***************************************************************************
+
+ line 20- 1. Addtion of 2+3 = 5
+
+ line 24- 2. Subtraction of 9-7 = 2
+
+ line 28- 3. Multiplication of 3*4 = 12
+
+ line 32- 4. Exponentiation of 3**3 = 27
+
+ line 36- 5. Division of 12.5/4 = 3.125
+
+ line 40- 6.a Modulus of 12%4 = 0
+
+ line 42- 6.b Modulus of 12.4%4  = 0.40000000000000036
+
+ line 44- 6.c Modulus of 13.4%4  = 1.4000000000000004
+
+ line 52- 7.a Regular division, this is a float  = 7.5
+
+ line 53- 7.b Floor division, this is an int  = 3
+
+ line 54- 7.c Floor division, this is a float  = 3.0
+
+ B. Part-1 Assignment operators ***************************************************************************
+
+ line 62- Assignment operators = 5
+
+ line 67- Answer for Add AND operator +=: 10
+
+ line 72- Answer for Subtract AND operator -=: 2
+
+ line 78- Answer for Multiply AND operator *=: 24
+
+ line 83- Answer for Divide AND operator /=: 1.5
+
+ line 88- Answer for Modulus AND operator /=: 2
+
+ line 93- Answer for Exponent AND operator **=: 1296
+
+ line 98- Answer for Floor Division AND operator **=: 1
+
+ H. Bitwise operators ***************************************************************************
+
+ line 115- Result of (10&7)= 2
+
+ line 122- Result of (10|7)= 15
+
+ line 129- Result of (10^7)= 13
+
+ line 136- Result of (~10)= -11
+
+ line 143- Result of (10<<2)= 20
+
+ line 152- Result of (10<<2)= 2
+
+ B. Part-2 Assignment operators ***************************************************************************
+
+ line 168- Bitwise AND and Assign 3 &= 5 = 1
+
+ line 175- Bitwise OR and Assign  3 |= 5 = 7
+
+ line 182- Bitwise xOR and Assign 3 ^= 5 = 6
+
+ line 189- Bitwise Right Shift and Assign 5 >>= 2 = 1
+
+ line 196- Bitwise Left Shift and Assign 5 <<= 2 = 20
+
+ C. Comparison operators ***************************************************************************
+
+ line 206- Equals To operator 4 == 4 True
+
+ line 212- Not Equals To operator 4 != 4 False
+
+ line 218- Greater than  operator 5 > 4 =  True
+
+ line 224- Less Than operator r 5 < 4 =  False
+
+ line 230- Less than or equal to operator 5 <= 4 =  False
+
+ line 231- Less than or equal to operator 4 <= 4 =  True
+
+ line 232- Less than or equal to operator 4 <= 5 =  True
+
+ line 238- Greater Than or Equal To operato 5 >= 4 =  True
+
+ line 239- Greater Than or Equal To operato 5 >= 5 =  True
+
+ line 240- Greater Than or Equal To operato 5 >= 5 =  False
+
+ line 249- The and operator a < 11 and a > 9 = True
+
+ line 250- The and operator a < 11 and a > 9 = False
+
+ line 255- The or operator a > 11 or a > 10 = False
+
+ line 256- The or operator a > 11 or a > 10 = True
+
+ line 261- The not operator not a > 11  = False
+
+ line 262- The not operator not a > 11  = True
+
+ line 273- is Identity operators = True
+
+ line 275- is Identity operators = False
+
+ line 277- == operator = True
+
+ line 283- is not Identity operators = False
+
+ line 284- is not Identity operators = True
+
+ line 285- Not eaquals to = False
+
+ line 293- in Membership operators "bat" in ["pot", "bat"]  = True
+
+ line 294- in Membership operators "cat" in ["pot", "bat"]  = False
+
+ line 298- not in Membership operators "cup" in ["pot", "bat"]  = True
+
+ line 299- not in Membership operators "pot" in ["pot", "bat"]  = False
