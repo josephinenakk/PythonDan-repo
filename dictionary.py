@@ -65,9 +65,10 @@ print("7.Using pop method removing pets: ",dictinary_var,'\n')
 
 #8.setdefault() , it doesn't change the value of key but if key does't exit it appends the key value.
 x=dictinary_var.setdefault("first_name","Ammulu")
-print("8.1 From setdefault method with old key= ",x,'\n') 
+print("8.1 From setdefault method with old key 'first_name'= ",x,'\n') 
 x=dictinary_var.setdefault("nick_name","Ammulu")
-print("8.2 From setdefault method with new key= ",x,'\n')
+print("8.2 From setdefault method with new key 'nick_name'= ",x,'\n')
+print( dictinary_var)
 
 #9.update()
 dictinary_var.update({"color":"Green"})
