@@ -1,0 +1,40 @@
+
+Python Dictionary Methods ******************************************
+
+ line 27- printing dictinary_var=
+ {'first_name': 'joe', 'age': 46, 'height': 134, 'weight': 67, 'marital_status': True, 'pets': 'two', 'no_of_childern': 2}
+
+ line 31- 1.Using copy method to print dictinary_var=
+ {'first_name': 'joe', 'age': 46, 'height': 134, 'weight': 67, 'marital_status': True, 'pets': 'two', 'no_of_childern': 2}
+
+ line 37- 2.Using formkey creating Dictonary=
+ {'first_name': 'joe', 'age': 'joe', 'height': 'joe', 'weight': 'joe'}
+
+ line 47- 3.Using get method finding the value of marital_status=
+  True
+
+ line 51- 4.Using items method:
+ dict_items([('first_name', 'joe'), ('age', 46), ('height', 134), ('weight', 67), ('marital_status', True), ('pets', 'two'), ('no_of_childern', 2)])
+
+ line 55- 5.Using keys method to get keys of dictinary=
+ dict_keys(['first_name', 'age', 'height', 'weight', 'marital_status', 'pets', 'no_of_childern'])
+two
+
+ line 60- 6.Using pop method removing pets:
+ {'first_name': 'joe', 'age': 46, 'height': 134, 'weight': 67, 'marital_status': True, 'no_of_childern': 2}
+
+ line 64- 7.Using pop method removing pets=
+  {'first_name': 'joe', 'age': 46, 'height': 134, 'weight': 67, 'marital_status': True}
+
+ line 68- 8.1 From setdefault method with old key 'first_name'=
+ joe
+
+ line 70- 8.2 From setdefault method with new key 'nick_name'=
+  Ammulu
+{'first_name': 'joe', 'age': 46, 'height': 134, 'weight': 67, 'marital_status': True, 'nick_name': 'Ammulu'}
+
+ line 75- 9 From update method=
+ {'first_name': 'joe', 'age': 46, 'height': 134, 'weight': 67, 'marital_status': True, 'nick_name': 'Ammulu', 'color': 'Green'}
+
+ line 79- 10. from values method printing all values=
+ dict_values(['joe', 46, 134, 67, True, 'Ammulu', 'Green'])
