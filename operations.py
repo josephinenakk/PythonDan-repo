@@ -291,13 +291,14 @@ print("\n line 285- Not eaquals to =",x != y) # to demonstrate the difference be
 #1. in Membership operators :
 x = ["pot", "bat"]
 print('\n line 293- in Membership operators "bat" in ["pot", "bat"]  =',"bat" in x) # returns True because a sequence with the value "bat" is in the list
+print('\n line 294- in Membership operators "cat" in ["pot", "bat"]  =',"cat" in x)
 
 #2. not in Membership operators :
 x = ["pot", "bat"]
-print('\n line 297- not in Membership operators "cup" in ["pot", "bat"]  =',"cup" in x) # returns True because a sequence with the value "cup" is not in the list
+print('\n line 298- not in Membership operators "cup" in ["pot", "bat"]  =',"cup" not in x) # returns True because a sequence with the value "cup" is not in the list
+print('\n line 299- not in Membership operators "pot" in ["pot", "bat"]  =',"pot" not in x)
 
-
-
+#####################################################################################################################################
 
 
 
