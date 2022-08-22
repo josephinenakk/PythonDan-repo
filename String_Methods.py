@@ -1,6 +1,6 @@
 # Python String Methods
 print("Python String Methods \n")
-# 1.	capitalize() : Converts the first character to upper case and the rest are converted to lower case.
+# 1. capitalize() : Converts the first character to upper case and the rest are converted to lower case.
 # a. Converts the first character to upper case
 st1 = "hello, and welcome ."
 x = st1.capitalize()
@@ -8,10 +8,9 @@ print ("\n line 7- capitalize(hello, and welcome ) = ",x) # Result= Hello, and w
 
 #b. The first character is converted to upper case, and the rest are converted to lower case.
 st2= "games are FUN!"
-y = st2.capitalize()
 print ("\n line 12- capitalize(games are FUN!) = ",y)
 
-#c.  if the first character is a number:
+#c. if the first character is a number:
 st3 = "36 is my Age."
 z = st3.capitalize()
 print ("\n line 17- capitalize(36 is my Age) = ",z)
@@ -40,7 +39,7 @@ x = st1.count("cherries")
 print('\n st1= I love cherries, cherries are my favorite fruits')
 print('\n line 41- count with search value "cherries" in the string st1= ', x)
 
-#b.
+#b.Search from position starting to endding:
 x = st1.count("cherries", 7, 15)
 print("\n line 45- count method with value ,satrt and end point mention = ",x)
 
