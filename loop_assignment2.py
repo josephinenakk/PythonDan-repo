@@ -1,20 +1,3 @@
-even_numbers_dict = {}
-index_variable = 1
-even_numbers = []
-
-a = 1
-    
-for i in range(1,300):
-    if ( i%2 != 0):
-        continue
-    
-    #print(i,index_variable)
-    #even_numbers[a] = even_numbers_dict.update({index_variable:i})
-    a +=1
-    #index_variable +=1
-    
-#print (even_numbers_dict)
-
 y={}
 index1=1
 index2=1
