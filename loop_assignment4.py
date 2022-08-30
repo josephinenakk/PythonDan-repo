@@ -59,29 +59,3 @@ while j<=50: #loop 50 times
 x.append(y)
 
 print("\n\n\n\n", x)
-
-
-
-
-
-
-
-
-"""
-for i in range(0,3): # getting one by one 0 ,1,2
-    y = {}           #empty dect
-    x.append(y)      #[{},{},{}]
-    if (i < 1):      # i=0
-       index= 1        
-    else:
-        index = i*100+1 #i= 1,2 (101, 201)
-    for a in range(index,100+index): #(101,201)  (201,301)
-        if (a%2 != 0 ):
-            continue
-        y.update({b:a}) 
-        b+=1
-    x[i] = y
-#print (x)
-
-"""
-
