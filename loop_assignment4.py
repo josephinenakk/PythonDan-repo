@@ -12,7 +12,8 @@ while i<=50: #loop 50 times
         #y.update({i:i*j}) 
     j+=1
     if(i==50 and j==3):
-        print(y)
+        #print(y)
+        print("")
   i+=1
   #print ("\n",x)
 x.append(y)
@@ -33,7 +34,8 @@ while m<=50: #loop 50 times
         #y.update({i:i*j}) 
     n+=1
     if(m==50 and n==3):
-        print(y)
+        #print(y)
+        print("")
   m+=1
   #print ("\n",x)
 x.append(y)
@@ -53,9 +55,10 @@ while j<=50: #loop 50 times
         #y.update({i:i*j}) 
     k+=1
     if(j==50 and k==3):
-        print(y)
+        #print(y)
+        print("")
   j+=1
   #print ("\n",x)
 x.append(y)
 
-print("\n\n\n\n", x)
+print(x)
