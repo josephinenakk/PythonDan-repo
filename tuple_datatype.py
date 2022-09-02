@@ -126,9 +126,4 @@ for x,y in input_list:
     result_list.append(dict)
 print ("\nline 127- result_list\n",result_list)
     
-
-
-
-
-
-
+#*******************************************************
