@@ -299,25 +299,3 @@ print('\n line 298- not in Membership operators "cup" in ["pot", "bat"]  =',"cup
 print('\n line 299- not in Membership operators "pot" in ["pot", "bat"]  =',"pot" not in x)
 
 #####################################################################################################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
