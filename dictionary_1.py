@@ -1,9 +1,5 @@
+family_details = {}
 
-
-
-family_details = {
-
-}
 family_details.update({
             "husband":{
                         "first_name":"John",
@@ -15,47 +11,48 @@ family_details.update({
                         }
                     })
 family_details.update({
-    "wife":{
-        "first_name":"Jane",
-        "middle_name":None,
-        "last_name":"Doe",
-        "age":35,
-        "occupation":None,
-        "hobbies":["Tv","Cooking","Craft","Dance"]
-    }
-})
+                        "wife":{
+                        "first_name":"Jane",
+                        "middle_name":None,
+                        "last_name":"Doe",
+                        "age":35,
+                        "occupation":None,
+                        "hobbies":["Tv","Cooking","Craft","Dance"]
+                         }
+                     })
 family_details.update({
-    "children":[
-        {"first_name":"Shane",
-        "middle_name":"Watson",
-        "last_name":"Doe",
-        "age":12,
-        "occupation":None,
-        "hobbies":["Dance","Tv"]},
-        {"first_name":"Lilly",
-        "middle_name":"",
-        "last_name":"Doe",
-         "age":5,
-        "occupation":None,
-        "hobbies":["Tv"]}
-    ]
-})
+                    "children":[
+                            {"first_name":"Shane",
+                            "middle_name":"Watson",
+                            "last_name":"Doe",
+                            "age":12,
+                            "occupation":None,
+                            "hobbies":["Dance","Tv"]},
+                            {"first_name":"Lilly",
+                            "middle_name":"",
+                            "last_name":"Doe",
+                            "age":5,
+                            "occupation":None,
+                            "hobbies":["Tv"]}
+                        ]
+                           })
 
 family_details.update({
-    "pets":[
-        {
-            "name":"Oliver",
-            "age":7,
-            "gender":"Male"
-        },
-        {
-            "name":"Gus",
-            "age":5,
-            "gender":"female"
-        }
-    ]
-})
-print(family_details)
+                        "pets":[
+                            {
+                                "name":"Oliver",
+                                "age":7,
+                                "gender":"Male"
+                            },
+                            {
+                                "name":"Gus",
+                                "age":5,
+                                "gender":"female"
+                            }
+                        ]
+                    })
+print("\nline 54- family_details dictionary: \n",family_details)
+print("\nline 55- who has more number of hobbies?")
 # who has more number of hobbies?
 f="hobbies"
 #if(f in family_details.keys() ):
@@ -64,7 +61,7 @@ b= len(family_details["wife"][f])
 c = len(family_details["children"][0][f])
 d= len(family_details["children"][1][f])
 
-
+print("line 64- using if and else :")
 # using if and else
 larger = 0
 person_with_more_hobbies = None
@@ -95,6 +92,7 @@ else:
 
 print ("person_with_more_hobbies , No_of hobbies",[person_with_more_hobbies,larger] )
 
+print("\nline 95- using elif :")
 #using elif
 if (a > b and a > c and a > d):
     person_with_more_hobbies = ["husband",a]
@@ -109,6 +107,7 @@ else:
 print("person_with_more_hobbies , No_of hobbies",person_with_more_hobbies)
 
 # who doesnt has the middle name? 
+print("\nline 108- who doesnt has the middle name?")
 a1=family_details["husband"]["middle_name"] 
 b1=family_details["children"][0]["middle_name"] 
 c1=family_details["children"][1]["middle_name"] 
@@ -125,6 +124,7 @@ if (c1== None ) or (c1 == "" ):
 
 print ("people who doesnt has middle name are",people_who_doesnt_has_middle_name)
 
+print("\nline 127- who is younger oliver or Gus ?")
 # who is younger oliver or Gus ?
 if (type(family_details["pets"][0]["age"] ) is int and (family_details["pets"][1]["age"]) is int ):
     if (family_details["pets"][0]["age"] == family_details["pets"][1]["age"]):
@@ -138,7 +138,7 @@ if (type(family_details["pets"][0]["age"] ) is int and (family_details["pets"][1
 else:
     print("younger pet is ",family_details["pets"][0]["name"])
 
-
+print("\nline 141- Are both the pets Male or Female ?")
 # Are both the pets Male or Female ? 
 
 #if (family_details["pets"][0]["gender"] == "Male" and family_details["pets"][1]["gender"] == "Male"):
@@ -150,6 +150,58 @@ if ((family_details["pets"][0]["gender"]) == (family_details["pets"][1]["gender"
 elif((family_details["pets"][0]["gender"]) != (family_details["pets"][1]["gender"])):
     print((family_details["pets"][0]["name"])," is ", (family_details["pets"][0]["gender"]))
     print((family_details["pets"][1]["name"])," is ",(family_details["pets"][1]["gender"]))
+print("\n")
 
+"""
+Answer:
+line 54- family_details dictionary:{
+                'husband': {   'first_name': 'John', 
+                                'middle_name': None, 
+                                'last_name': 'Doe', 
+                                'age': 40, 
+                                'occupation': 'Engineer', 
+                                'hobbies': ['Tv', 'Music', 'Gardening']}, 
+                    'wife': {  'first_name': 'Jane', 
+                                'middle_name': None, 
+                                'last_name': 'Doe', 
+                                'age': 35, 
+                                'occupation': None, 
+                                'hobbies': ['Tv', 'Cooking', 'Craft', 'Dance']}, 
+                 'children': [
+                    {  'first_name': 'Shane', 
+                        'middle_name': 'Watson', 
+                        'last_name': 'Doe', 
+                        'age': 12,
+                        'occupation': None, 
+                        'hobbies': ['Dance', 'Tv']}, 
+                       {'first_name': 'Lilly', 
+                        'middle_name': '',
+                        'last_name': 'Doe', 
+                        'age': 5,
+                         'occupation': None, 
+                        'hobbies': ['Tv']}], 
+                'pets': [
+                    {'name': 'Oliver', 
+                     'age': 7, 
+                      'gender': 'Male'}, 
+                    {'name': 'Gus', 
+                     'age': 5, 
+                     'gender': 'female'}]}
 
+line 55- who has more number of hobbies?
+line 64- using if and else :
+person_with_more_hobbies , No_of hobbies ['wife', 4]
 
+line 95- using elif :
+person_with_more_hobbies , No_of hobbies ['wife', 4]
+
+line 108- who doesnt has the middle name?
+people who doesnt has middle name are ['John', 'Jane', 'Lilly']
+
+line 127- who is younger oliver or Gus ?
+younger pet is  Oliver
+
+line 141- Are both the pets Male or Female ?
+Oliver  is  Male
+Gus  is  female
+"""
