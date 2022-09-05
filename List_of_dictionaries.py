@@ -1,8 +1,5 @@
-from multiprocessing.dummy.connection import families
-
-
 list_dic=[{},{},{}]
-print(list_dic)
+#print(list_dic)
 
 list_dic[0]= {
                  "first_name":"Alene",
@@ -51,9 +48,9 @@ list_dic[2]= {
                  "no_of_childern":2
                  }
 
-print("Printing Total List=",list_dic)
-print("printing Alene 1st kid1 name =", list_dic[0]["family_record"]["childern"][0]["kid1_name"])
-print("printing Alene r in 1st kid2 name  =", list_dic[0]["family_record"]["childern"][1]["kid2_name"][2])
+print("line 51- Printing Total List=",list_dic)
+print("line 52-printing Alene 1st kid1 name =", list_dic[0]["family_record"]["childern"][0]["kid1_name"])
+print("line 53- printing Alene r in 1st kid2 name  =", list_dic[0]["family_record"]["childern"][1]["kid2_name"][2])
 
 list_dic.append({})
 list_dic[3]= {
@@ -74,7 +71,7 @@ list_dic[3]["family_record"]["childern"].insert(4,{"kid3_name":'many4',"age":3})
 list_dic[3]["family_record"]["childern"].insert(5,{"kid3_name":'many5',"age":2})
 list_dic[3]["family_record"]["childern"].insert(6,{"kid3_name":'many6',"age":1})
 list_dic[3]["family_record"]["childern"].insert(7,{"kid3_name":'many7',"age":0})
-print("After adding all seven kids = ",'\n',list_dic,'\n')
-print("printing only Sarah details = ",'\n',list_dic[3])
+print("line 74- After adding all seven kids = ",'\n',list_dic,'\n')
+print("line 75- printing only Sarah details = ",'\n',list_dic[3])
 
 
