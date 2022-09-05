@@ -73,5 +73,3 @@ list_dic[3]["family_record"]["childern"].insert(6,{"kid3_name":'many6',"age":1})
 list_dic[3]["family_record"]["childern"].insert(7,{"kid3_name":'many7',"age":0})
 print("line 74- After adding all seven kids = ",'\n',list_dic,'\n')
 print("line 75- printing only Sarah details = ",'\n',list_dic[3])
-
-
